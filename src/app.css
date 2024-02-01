@@ -5,30 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply border-primary;
-}
-
-h1,
-h2,
-p {
+body {
   @apply text-primary;
-}
-
-h1,
-h2 {
-  @apply font-heading;
-}
-
-h1 {
-  @apply text-h1;
-}
-
-h2 {
-  @apply text-h2;
-}
-
-p,
-a {
-  @apply text-normal font-body;
 }
