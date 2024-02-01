@@ -14,6 +14,12 @@
                 return 'devicon-javascript-plain'
             case 'TypeScript':
                 return 'devicon-typescript-plain'
+            case 'MySQL':
+                return 'devicon-mysql-plain'
+            case 'PHP':
+                return 'devicon-php-plain'
+            case 'Docker':
+                return 'devicon-docker-plain'
         }
     }
 </script>
