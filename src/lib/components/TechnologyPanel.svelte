@@ -19,7 +19,7 @@
 </script>
 
 <div class="w-32 h-32 flex justify-center items-center bg-primary text-secondary">
-    <a {href}>
+    <a target="_blank" {href}>
         <i class={`text-8xl ${getDevIconClassName(technology)}`}></i>
     </a>
 </div>
