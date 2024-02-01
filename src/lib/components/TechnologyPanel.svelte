@@ -18,6 +18,8 @@
     }
 </script>
 
-<a {href}>
-    <i class={getDevIconClassName(technology)}></i>
-</a>
+<div class="w-32 h-32 flex justify-center items-center bg-primary text-secondary">
+    <a {href}>
+        <i class={`text-8xl ${getDevIconClassName(technology)}`}></i>
+    </a>
+</div>
