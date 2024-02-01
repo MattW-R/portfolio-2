@@ -24,7 +24,9 @@
     }
 </script>
 
-<div class="w-32 h-32 flex justify-center items-center bg-primary text-secondary">
+<div
+    class={`w-32 h-32 flex justify-center items-center ${href ? 'bg-accent' : 'bg-primary'} text-secondary`}
+>
     <a target="_blank" {href}>
         <i class={`text-8xl ${getDevIconClassName(technology)}`}></i>
     </a>
