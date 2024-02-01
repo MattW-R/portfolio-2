@@ -1,7 +1,7 @@
 <script lang="ts">
     import type { ProjectData } from '$lib/types/ProjectData'
     import Hyperlink from '$lib/components/Hyperlink.svelte'
-    import TechnologyIcon from '$lib/components/TechnologyIcon.svelte'
+    import TechnologyPanel from '$lib/components/TechnologyPanel.svelte'
 
     export let data: ProjectData
 </script>
@@ -14,9 +14,9 @@
             <Hyperlink label={displayName} {href} />
         {/each}
     </div>
-    <div>
+    <div class="flex gap-intra">
         {#each data.techStack as { technology, example }}
-            <TechnologyIcon {technology} href={example} />
+            <TechnologyPanel {technology} href={example} />
         {/each}
     </div>
 </div>
