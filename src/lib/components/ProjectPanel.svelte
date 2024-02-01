@@ -8,7 +8,7 @@
     export let data: ProjectData
 </script>
 
-<div class="w-full max-w-4xl p-inter flex flex-col gap-intra">
+<article class="w-full max-w-4xl p-inter flex flex-col gap-intra">
     <Heading text={data.name} />
     <Text text={data.description} />
     <div class="flex gap-intra">
@@ -21,4 +21,4 @@
             <TechnologyPanel {technology} href={example} />
         {/each}
     </div>
-</div>
+</article>

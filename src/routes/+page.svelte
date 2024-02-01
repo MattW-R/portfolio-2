@@ -6,9 +6,9 @@
 
 <main class="flex flex-col justify-start items-center gap-inter p-inter">
     <Title text="Matt W-R's Portfolio" />
-    <div class="flex flex-col justify-start items-center gap-inter">
+    <section class="flex flex-col justify-start items-center gap-inter">
         {#each Projects as project}
             <ProjectPanel data={project} />
         {/each}
-    </div>
+    </section>
 </main>
