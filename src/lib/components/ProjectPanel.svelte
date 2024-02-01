@@ -6,10 +6,10 @@
     export let data: ProjectData
 </script>
 
-<div>
+<div class="w-full max-w-4xl p-inter flex flex-col gap-intra">
     <h2>{data.name}</h2>
     <p>{data.description}</p>
-    <div>
+    <div class="flex gap-intra">
         {#each data.links as { displayName, href }}
             <Hyperlink label={displayName} {href} />
         {/each}
