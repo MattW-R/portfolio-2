@@ -3,6 +3,6 @@
     export let label: string
 </script>
 
-<a {href}>
+<a class="text-accent" {href}>
     {label}
 </a>
