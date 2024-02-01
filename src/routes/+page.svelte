@@ -4,7 +4,9 @@
 </script>
 
 <main>
-    {#each Projects as project}
-        <ProjectPanel data={project} />
-    {/each}
+    <div class="flex flex-col justify-start items-center gap-inter">
+        {#each Projects as project}
+            <ProjectPanel data={project} />
+        {/each}
+    </div>
 </main>
