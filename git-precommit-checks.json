@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {
+      "message": "Leftover conflict markers.",
+      "regex": "/^[<>|=]{4,}/m"
+    }
+  ]
+}
