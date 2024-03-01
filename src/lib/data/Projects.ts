@@ -2,6 +2,54 @@ import type { ProjectData } from '$lib/types/ProjectData'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'MVC.Portal',
+        description:
+            'Worked in one of two parallel agile development teams on a legacy PHP & JavaScript application Worked within an MVC architectural pattern & used the Slim framework. Created new features in a manner that complemented the existing feature implementation with the assistance of pair-programming & code-reviews. Utilised a CI server to ensure all unit tests passed & any coding standards were matched before task branches were able to be merged.',
+        links: [
+            {
+                displayName: 'GitHub',
+                href: 'https://github.com/iO-Academy/AcademyPortal',
+            },
+            {
+                displayName: 'Live',
+                href: 'https://portal.dev.io-academy.uk/',
+            },
+        ],
+        techStack: [
+            {
+                technology: 'PHP',
+                example:
+                    'https://github.com/iO-Academy/AcademyPortal/pull/344/files?file-filters%5B%5D=.php',
+            },
+            {
+                technology: 'MySQL',
+                example:
+                    'https://github.com/iO-Academy/AcademyPortal/pull/359/files?file-filters%5B%5D=.php#diff-a3e5fce0d9d6587787d53ac926acd537e71566cb8ed8f39834837959d007ebf4',
+            },
+            {
+                technology: 'JavaScript',
+                example:
+                    'https://github.com/iO-Academy/AcademyPortal/pull/359/files?file-filters%5B%5D=.js',
+            },
+            {
+                technology: 'HTML',
+                example:
+                    'https://github.com/iO-Academy/AcademyPortal/pull/344/files?file-filters%5B%5D=.phtml#diff-71b3aa5b92fc0a3762e8596845754d6d6a75c9c001a7613bcd279d5afed96700',
+            },
+            {
+                technology: 'CSS',
+            },
+            {
+                technology: 'bootstrap',
+                example:
+                    'https://github.com/iO-Academy/AcademyPortal/pull/344/files?file-filters%5B%5D=.phtml#diff-71b3aa5b92fc0a3762e8596845754d6d6a75c9c001a7613bcd279d5afed96700',
+            },
+            {
+                technology: 'circleci',
+            },
+        ],
+    },
+    {
         name: 'Dog.App',
         description:
             'Worked in a team of 8 developers, over the course of a single sprint, to create a web application to display information about different dog breeds from a MySQL database & filter them by their associated temperaments. Created unit-tested & fully documented object-orientated functionality in PHP. Implemented namespacing, autoloading & the hydrator design pattern.',
