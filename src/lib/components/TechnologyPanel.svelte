@@ -4,7 +4,9 @@
     export let technology: DevelopmentTechnology
     export let href: `https://${string}` | undefined
 
-    const getDevIconClassName = (technology: DevelopmentTechnology): string => {
+    const getDevIconClassName = (
+        technology: DevelopmentTechnology,
+    ): string | undefined => {
         switch (technology) {
             case 'CSS':
                 return 'devicon-css3-plain'
@@ -42,6 +44,23 @@
                 return 'devicon-jest-plain'
             case 'npm':
                 return 'devicon-npm-original-wordmark'
+            case 'tailwind':
+                return 'devicon-tailwindcss-original'
+            case 'k8s':
+                return 'devicon-kubernetes-plain'
+            case 'yarn':
+                return 'devicon-yarn-original'
+            case 'vite':
+                return 'devicon-vitejs-plain'
+            case 'azure':
+                return 'devicon-azure-plain'
+            case 'Azure DevOps':
+                return 'devicon-azuredevops-plain'
+            case 'redis':
+                return 'devicon-redis-plain'
+            case 'mapbox':
+            case 'lerna':
+                return undefined
         }
     }
 </script>
