@@ -58,6 +58,10 @@
                 return 'devicon-azuredevops-plain'
             case 'redis':
                 return 'devicon-redis-plain'
+            case 'bash':
+                return 'devicon-bash-plain'
+            case 'eslint':
+                return 'devicon-eslint-plain'
             case 'mapbox':
             case 'lerna':
                 return undefined

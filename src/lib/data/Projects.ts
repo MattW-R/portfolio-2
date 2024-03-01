@@ -52,6 +52,12 @@ export const Projects: ProjectData[] = [
             {
                 technology: 'mapbox',
             },
+            {
+                technology: 'bash',
+            },
+            {
+                technology: 'eslint',
+            },
         ],
     },
     {

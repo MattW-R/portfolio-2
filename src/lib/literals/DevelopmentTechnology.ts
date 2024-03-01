@@ -26,6 +26,8 @@ export const DevelopmentTechnologyOptions = [
     'Azure DevOps',
     'redis',
     'mapbox',
+    'bash',
+    'eslint',
 ] as const
 
 export type DevelopmentTechnology = (typeof DevelopmentTechnologyOptions)[number]
