@@ -2,6 +2,42 @@ import type { ProjectData } from '$lib/types/ProjectData'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'Previous.Portfolio',
+        description:
+            "Created previous portfolio website to display projects I have worked on by myself/as part of a team. Used SCSS to style the HTML5 structure & TypeScript to add specific functionality including a 'scroll anchor' system & dynamic cosmetic effects. Wrote a gulp 'watch' script to automatically compile the TypeScript & SCSS in the background during development. Implemented JavaScript/CSS/HTML minification, ES5 transpilation & other processes within a gulp 'build' script.",
+        links: [
+            {
+                displayName: 'GitHub',
+                href: 'https://github.com/MattW-R/Portfolio',
+            },
+            {
+                displayName: 'Live',
+                href: 'https://2021-matthewwr.dev.io-academy.uk/Portfolio/',
+            },
+        ],
+        techStack: [
+            {
+                technology: 'TypeScript',
+                example: 'https://github.com/MattW-R/Portfolio/tree/main/app/ts',
+            },
+            {
+                technology: 'SCSS',
+                example: 'https://github.com/MattW-R/Portfolio/tree/main/app/scss',
+            },
+            {
+                technology: 'HTML',
+                example: 'https://github.com/MattW-R/Portfolio/blob/main/app/index.html',
+            },
+            {
+                technology: 'gulp',
+                example: 'https://github.com/MattW-R/Portfolio/blob/main/gulpfile.js',
+            },
+            {
+                technology: 'npm',
+            },
+        ],
+    },
+    {
         name: 'Parking.App',
         description:
             'Helped design & build the foundations of a parking app as part of an agile team of four developers, using Slack, Jira & Zoom to collaborate. Employed Node.js & Express to create a documented, RESTful back end, following the controller-service design pattern. Proposed a data structure & implemented it using MongoDB. Built functions to validate & sanitise user inputs, unit tested this built functionality using Jest. Used React to create a component-based front end architecture that consumed the back-end API. Implemented the proposed design accurately using InVision.',
