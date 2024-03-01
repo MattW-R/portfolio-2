@@ -28,6 +28,9 @@ export const DevelopmentTechnologyOptions = [
     'mapbox',
     'bash',
     'eslint',
+    'svelte',
+    'netlify',
+    'githubactions',
 ] as const
 
 export type DevelopmentTechnology = (typeof DevelopmentTechnologyOptions)[number]

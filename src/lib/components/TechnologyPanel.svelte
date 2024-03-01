@@ -62,6 +62,12 @@
                 return 'devicon-bash-plain'
             case 'eslint':
                 return 'devicon-eslint-plain'
+            case 'svelte':
+                return 'devicon-svelte-plain'
+            case 'netlify':
+                return 'devicon-netlify-plain'
+            case 'githubactions':
+                return 'devicon-githubactions-plain'
             case 'mapbox':
             case 'lerna':
                 return undefined
