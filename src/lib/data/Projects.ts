@@ -2,6 +2,41 @@ import type { ProjectData } from '$lib/types/ProjectData'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'Dog.App',
+        description:
+            'Worked in a team of 8 developers, over the course of a single sprint, to create a web application to display information about different dog breeds from a MySQL database & filter them by their associated temperaments. Created unit-tested & fully documented object-orientated functionality in PHP. Implemented namespacing, autoloading & the hydrator design pattern.',
+        links: [
+            {
+                displayName: 'GitHub',
+                href: 'https://github.com/iO-Academy/2021-march-fetch',
+            },
+            {
+                displayName: 'Live',
+                href: 'https://dev.io-academy.uk/projects/2021-march/fetch/',
+            },
+        ],
+        techStack: [
+            {
+                technology: 'PHP',
+                example: 'https://github.com/iO-Academy/2021-march-fetch/pull/21/files',
+            },
+            {
+                technology: 'MySQL',
+                example: 'https://github.com/iO-Academy/2021-march-fetch/pull/17/files',
+            },
+            {
+                technology: 'HTML',
+                example:
+                    'https://github.com/iO-Academy/2021-march-fetch/pull/11/files?file-filters%5B%5D=.php#diff-7413d6453f901e939bbd840c8f0d1c7b20c2ca0e7f71741e4e07c6cf036f16c0',
+            },
+            {
+                technology: 'CSS',
+                example:
+                    'https://github.com/iO-Academy/2021-march-fetch/pull/11/files?file-filters%5B%5D=.css#diff-da08da0da5bfd24f80d8d86681fca579c0cbdc9f64bbe06251878d7762815cce',
+            },
+        ],
+    },
+    {
         name: 'Aptitude.Test',
         description:
             'Worked in one of two parallel agile scrum teams on a legacy TypeScript, SCSS & Bootstrap application. Worked to identify & fix bugs in an existing codebase as well as creating new features in a fashion that complements the existing functionality. Utilised Handlebars to create & dynamically populate templates. Used Postman to assist in the workflow when interacting with a private API.',
