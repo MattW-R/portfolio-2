@@ -7,11 +7,11 @@ on:
 
 jobs:
   lint:
-    name: Run linter
+    name: Lint
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout Code
         uses: actions/checkout@v2
 
       - name: Use Node.js
@@ -19,8 +19,8 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: yarn install
 
-      - name: Run linter
+      - name: Run Linter
         run: yarn lint
