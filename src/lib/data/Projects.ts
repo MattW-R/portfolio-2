@@ -60,6 +60,9 @@ export const Projects: ProjectData[] = [
                 technology: 'TypeScript',
             },
             {
+                technology: 'React',
+            },
+            {
                 technology: 'Nodejs',
             },
             {
