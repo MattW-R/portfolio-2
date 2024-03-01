@@ -2,6 +2,55 @@ import type { ProjectData } from '$lib/types/ProjectData'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'This.Portfolio',
+        description:
+            'Created this portfolio static site to display projects I have worked on by personally & professionally. Built the website with SvelteKit & styled with TailwindCSS. Deployed with netlify via GitHub integration.',
+        links: [
+            {
+                displayName: 'GitHub',
+                href: 'https://github.com/MattW-R/portfolio-2',
+            },
+        ],
+        techStack: [
+            {
+                technology: 'svelte',
+                example: 'https://github.com/MattW-R/portfolio-2/tree/main/src',
+            },
+            {
+                technology: 'TypeScript',
+                example: 'https://github.com/MattW-R/portfolio-2/tree/main/src/lib',
+            },
+            {
+                technology: 'tailwind',
+                example:
+                    'https://github.com/MattW-R/portfolio-2/blob/main/tailwind.config.js',
+            },
+            {
+                technology: 'netlify',
+                example:
+                    'https://github.com/MattW-R/portfolio-2/blob/main/svelte.config.js',
+            },
+            {
+                technology: 'yarn',
+            },
+            {
+                technology: 'githubactions',
+                example:
+                    'https://github.com/MattW-R/portfolio-2/tree/main/.github/workflows',
+            },
+            {
+                technology: 'eslint',
+                example: 'https://github.com/MattW-R/portfolio-2/blob/main/.eslintrc.cjs',
+            },
+            {
+                technology: 'HTML',
+            },
+            {
+                technology: 'vite',
+            },
+        ],
+    },
+    {
         name: 'Landarna',
         description:
             'Independently established the foundational framework for a dynamic web application, while working at the company 3ADAPT, aimed at facilitating land selection and evaluating the impact of various interventions. Assumed a leadership role as the lead, founding developer, fostering productive collaborations through engagement with internal stakeholders and backlog refnement.',
@@ -57,6 +106,12 @@ export const Projects: ProjectData[] = [
             },
             {
                 technology: 'eslint',
+            },
+            {
+                technology: 'HTML',
+            },
+            {
+                technology: 'CSS',
             },
         ],
     },
