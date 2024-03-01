@@ -30,6 +30,18 @@
                 return 'devicon-handlebars-plain'
             case 'circleci':
                 return 'devicon-circleci-plain'
+            case 'React':
+                return 'devicon-react-plain'
+            case 'Nodejs':
+                return 'devicon-nodejs-plain'
+            case 'express':
+                return 'devicon-express-original'
+            case 'MongoDB':
+                return 'devicon-mongodb-plain'
+            case 'jest':
+                return 'devicon-jest-plain'
+            case 'npm':
+                return 'devicon-npm-original-wordmark'
         }
     }
 </script>
