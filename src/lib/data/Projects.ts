@@ -2,6 +2,65 @@ import type { ProjectData } from '$lib/types/ProjectData'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'Landarna',
+        description:
+            'Independently established the foundational framework for a dynamic web application, while working at the company 3ADAPT, aimed at facilitating land selection and evaluating the impact of various interventions. Assumed a leadership role as the lead, founding developer, fostering productive collaborations through engagement with internal stakeholders and backlog refnement.',
+        links: [],
+        techStack: [
+            {
+                technology: 'TypeScript',
+            },
+            {
+                technology: 'Nodejs',
+            },
+            {
+                technology: 'express',
+            },
+            {
+                technology: 'jest',
+            },
+            {
+                technology: 'MongoDB',
+            },
+            {
+                technology: 'Docker',
+            },
+            {
+                technology: 'lerna',
+            },
+            {
+                technology: 'k8s',
+            },
+            {
+                technology: 'vite',
+            },
+            {
+                technology: 'azure',
+            },
+            {
+                technology: 'redis',
+            },
+            {
+                technology: 'Azure DevOps',
+            },
+            {
+                technology: 'tailwind',
+            },
+            {
+                technology: 'yarn',
+            },
+            {
+                technology: 'mapbox',
+            },
+            {
+                technology: 'bash',
+            },
+            {
+                technology: 'eslint',
+            },
+        ],
+    },
+    {
         name: 'Previous.Portfolio',
         description:
             "Created previous portfolio website to display projects I have worked on by myself/as part of a team. Used SCSS to style the HTML5 structure & TypeScript to add specific functionality including a 'scroll anchor' system & dynamic cosmetic effects. Wrote a gulp 'watch' script to automatically compile the TypeScript & SCSS in the background during development. Implemented JavaScript/CSS/HTML minification, ES5 transpilation & other processes within a gulp 'build' script.",

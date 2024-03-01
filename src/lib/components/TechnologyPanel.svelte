@@ -4,7 +4,9 @@
     export let technology: DevelopmentTechnology
     export let href: `https://${string}` | undefined
 
-    const getDevIconClassName = (technology: DevelopmentTechnology): string => {
+    const getDevIconClassName = (
+        technology: DevelopmentTechnology,
+    ): string | undefined => {
         switch (technology) {
             case 'CSS':
                 return 'devicon-css3-plain'
@@ -42,13 +44,40 @@
                 return 'devicon-jest-plain'
             case 'npm':
                 return 'devicon-npm-original-wordmark'
+            case 'tailwind':
+                return 'devicon-tailwindcss-original'
+            case 'k8s':
+                return 'devicon-kubernetes-plain'
+            case 'yarn':
+                return 'devicon-yarn-original'
+            case 'vite':
+                return 'devicon-vitejs-plain'
+            case 'azure':
+                return 'devicon-azure-plain'
+            case 'Azure DevOps':
+                return 'devicon-azuredevops-plain'
+            case 'redis':
+                return 'devicon-redis-plain'
+            case 'bash':
+                return 'devicon-bash-plain'
+            case 'eslint':
+                return 'devicon-eslint-plain'
+            case 'mapbox':
+            case 'lerna':
+                return undefined
         }
     }
+
+    const devIconClassName = getDevIconClassName(technology)
 </script>
 
 <a
     class={`w-32 h-32 flex justify-center items-center ${href ? 'bg-accent' : 'bg-primary'} text-secondary ${href ? 'cursor-pointer' : 'cursor-default'}`}
     {href}
 >
-    <i class={`text-8xl ${getDevIconClassName(technology)}`}></i>
+    {#if devIconClassName}
+        <i class={`text-8xl ${devIconClassName}`}></i>
+    {:else}
+        <p class="text-2xl">{technology}</p>
+    {/if}
 </a>

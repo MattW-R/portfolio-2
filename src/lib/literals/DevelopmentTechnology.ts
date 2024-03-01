@@ -17,6 +17,17 @@ export const DevelopmentTechnologyOptions = [
     'MongoDB',
     'jest',
     'npm',
+    'lerna',
+    'k8s',
+    'tailwind',
+    'vite',
+    'yarn',
+    'azure',
+    'Azure DevOps',
+    'redis',
+    'mapbox',
+    'bash',
+    'eslint',
 ] as const
 
 export type DevelopmentTechnology = (typeof DevelopmentTechnologyOptions)[number]
