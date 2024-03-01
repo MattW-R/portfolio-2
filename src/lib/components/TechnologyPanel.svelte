@@ -20,6 +20,14 @@
                 return 'devicon-php-plain'
             case 'Docker':
                 return 'devicon-docker-plain'
+            case 'SCSS':
+                return 'devicon-sass-plain'
+            case 'gulp':
+                return 'devicon-gulp-plain'
+            case 'bootstrap':
+                return 'devicon-bootstrap-plain'
+            case 'handlebars':
+                return 'devicon-handlebars-plain'
         }
     }
 </script>
