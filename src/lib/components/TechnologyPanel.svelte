@@ -63,11 +63,17 @@
                 return undefined
         }
     }
+
+    const devIconClassName = getDevIconClassName(technology)
 </script>
 
 <a
     class={`w-32 h-32 flex justify-center items-center ${href ? 'bg-accent' : 'bg-primary'} text-secondary ${href ? 'cursor-pointer' : 'cursor-default'}`}
     {href}
 >
-    <i class={`text-8xl ${getDevIconClassName(technology)}`}></i>
+    {#if devIconClassName}
+        <i class={`text-8xl ${devIconClassName}`}></i>
+    {:else}
+        <p class="text-2xl">{technology}</p>
+    {/if}
 </a>
