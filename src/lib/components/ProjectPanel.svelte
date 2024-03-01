@@ -16,7 +16,7 @@
             <Hyperlink label={displayName} {href} />
         {/each}
     </div>
-    <div class="flex gap-intra">
+    <div class="flex flex-wrap gap-intra">
         {#each data.techStack as { technology, example }}
             <TechnologyPanel {technology} href={example} />
         {/each}
