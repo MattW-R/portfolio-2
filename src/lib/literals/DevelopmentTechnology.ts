@@ -10,6 +10,7 @@ export const DevelopmentTechnologyOptions = [
     'gulp',
     'handlebars',
     'bootstrap',
+    'circleci',
 ] as const
 
 export type DevelopmentTechnology = (typeof DevelopmentTechnologyOptions)[number]

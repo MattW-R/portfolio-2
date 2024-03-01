@@ -28,6 +28,8 @@
                 return 'devicon-bootstrap-plain'
             case 'handlebars':
                 return 'devicon-handlebars-plain'
+            case 'circleci':
+                return 'devicon-circleci-plain'
         }
     }
 </script>
