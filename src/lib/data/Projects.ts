@@ -2,6 +2,64 @@ import type { ProjectData } from '$lib/types/ProjectData'
 
 export const Projects: ProjectData[] = [
     {
+        name: 'Parking.App',
+        description:
+            'Helped design & build the foundations of a parking app as part of an agile team of four developers, using Slack, Jira & Zoom to collaborate. Employed Node.js & Express to create a documented, RESTful back end, following the controller-service design pattern. Proposed a data structure & implemented it using MongoDB. Built functions to validate & sanitise user inputs, unit tested this built functionality using Jest. Used React to create a component-based front end architecture that consumed the back-end API. Implemented the proposed design accurately using InVision.',
+        links: [
+            {
+                displayName: 'GitHub',
+                href: 'https://github.com/MattW-R/2021-march-parkingApp',
+            },
+            {
+                displayName: 'Live',
+                href: 'https://2021-mar-parkingapp-fe.dev.io-academy.uk/',
+            },
+        ],
+        techStack: [
+            {
+                technology: 'React',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/client/src/Component/BookCarPark/BookCarPark.js',
+            },
+            {
+                technology: 'Nodejs',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/api/index.js',
+            },
+            {
+                technology: 'express',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/api/Config/Routes.js',
+            },
+            {
+                technology: 'MongoDB',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/api/Services/CarParkService.js',
+            },
+            {
+                technology: 'jest',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/api/__tests__/durationValidator.test.js',
+            },
+            {
+                technology: 'JavaScript',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/client/src/Component/BookingSuccess/BookingSuccess.js',
+            },
+            {
+                technology: 'HTML',
+            },
+            {
+                technology: 'CSS',
+                example:
+                    'https://github.com/MattW-R/2021-march-parkingApp/blob/main/client/src/Component/BookCarPark/BookCarPark.css',
+            },
+            {
+                technology: 'npm',
+            },
+        ],
+    },
+    {
         name: 'MVC.Portal',
         description:
             'Worked in one of two parallel agile development teams on a legacy PHP & JavaScript application Worked within an MVC architectural pattern & used the Slim framework. Created new features in a manner that complemented the existing feature implementation with the assistance of pair-programming & code-reviews. Utilised a CI server to ensure all unit tests passed & any coding standards were matched before task branches were able to be merged.',
