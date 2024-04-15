@@ -80,6 +80,7 @@
 <a
     class={`w-32 h-32 flex justify-center items-center ${href ? 'bg-accent' : 'bg-primary'} text-secondary ${href ? 'cursor-pointer' : 'cursor-default'}`}
     {href}
+    target="_blank"
 >
     {#if devIconClassName}
         <i class={`text-8xl ${devIconClassName}`}></i>
